@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // PUBLIC_INTERFACE
 function Dashboard() {
@@ -11,8 +12,8 @@ function Dashboard() {
       <h2>Dashboard</h2>
       <p>Welcome! Start a new game or view your previous games.</p>
       <ul>
-        <li><a href="/play">Play Game</a></li>
-        <li><a href="/history">Game History</a></li>
+        <li><Link to="/play">Play Game</Link></li>
+        <li><Link to="/history">Game History</Link></li>
       </ul>
     </div>
   );
